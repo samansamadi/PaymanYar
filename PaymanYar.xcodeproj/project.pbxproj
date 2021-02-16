@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B7300425B588130062301A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7300325B588130062301A /* AppDelegate.swift */; };
+		22B7300825B588130062301A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B7300725B588130062301A /* ViewController.swift */; };
+		22B7300B25B588130062301A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B7300925B588130062301A /* Main.storyboard */; };
+		22B7300D25B588140062301A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B7300C25B588140062301A /* Assets.xcassets */; };
+		22B7301025B588140062301A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B7300E25B588140062301A /* LaunchScreen.storyboard */; };
+		22FCCD0C25B953570055BCF2 /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FCCD0B25B953570055BCF2 /* Slider.swift */; };
+		22FCCD0E25B9538C0055BCF2 /* Slider.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22FCCD0D25B9538C0055BCF2 /* Slider.xib */; };
+		F928527780944AEC9B53FF74 /* Pods_PaymanYar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DBA471A046F220077BD6C3 /* Pods_PaymanYar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22B7300025B588130062301A /* PaymanYar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymanYar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B7300325B588130062301A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22B7300725B588130062301A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22B7300A25B588130062301A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22B7300C25B588140062301A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B7300F25B588140062301A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22B7301125B588140062301A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FCCD0B25B953570055BCF2 /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		22FCCD0D25B9538C0055BCF2 /* Slider.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Slider.xib; sourceTree = "<group>"; };
+		91DBA471A046F220077BD6C3 /* Pods_PaymanYar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymanYar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A410CA98A5D7B509E12AD16E /* Pods-PaymanYar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymanYar.debug.xcconfig"; path = "Target Support Files/Pods-PaymanYar/Pods-PaymanYar.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF25C4FE25F3DEA9257A915 /* Pods-PaymanYar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymanYar.release.xcconfig"; path = "Target Support Files/Pods-PaymanYar/Pods-PaymanYar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B72FFD25B588130062301A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F928527780944AEC9B53FF74 /* Pods_PaymanYar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B72FF725B588130062301A = {
+			isa = PBXGroup;
+			children = (
+				22B7300225B588130062301A /* PaymanYar */,
+				22B7300125B588130062301A /* Products */,
+				5FEF7C2F760DD82A3B636ED3 /* Pods */,
+				E3690E6AACBCA53581CE839E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22B7300125B588130062301A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B7300025B588130062301A /* PaymanYar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B7300225B588130062301A /* PaymanYar */ = {
+			isa = PBXGroup;
+			children = (
+				22B7300325B588130062301A /* AppDelegate.swift */,
+				22B7300725B588130062301A /* ViewController.swift */,
+				22B7300925B588130062301A /* Main.storyboard */,
+				22B7300C25B588140062301A /* Assets.xcassets */,
+				22B7300E25B588140062301A /* LaunchScreen.storyboard */,
+				22B7301125B588140062301A /* Info.plist */,
+				22FCCD0B25B953570055BCF2 /* Slider.swift */,
+				22FCCD0D25B9538C0055BCF2 /* Slider.xib */,
+			);
+			path = PaymanYar;
+			sourceTree = "<group>";
+		};
+		5FEF7C2F760DD82A3B636ED3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A410CA98A5D7B509E12AD16E /* Pods-PaymanYar.debug.xcconfig */,
+				EAF25C4FE25F3DEA9257A915 /* Pods-PaymanYar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3690E6AACBCA53581CE839E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DBA471A046F220077BD6C3 /* Pods_PaymanYar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B72FFF25B588130062301A /* PaymanYar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B7301425B588140062301A /* Build configuration list for PBXNativeTarget "PaymanYar" */;
+			buildPhases = (
+				337BF8350A98EF5D0F89CB97 /* [CP] Check Pods Manifest.lock */,
+				22B72FFC25B588130062301A /* Sources */,
+				22B72FFD25B588130062301A /* Frameworks */,
+				22B72FFE25B588130062301A /* Resources */,
+				EC87270978FE107E2EC3078F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymanYar;
+			productName = PaymanYar;
+			productReference = 22B7300025B588130062301A /* PaymanYar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B72FF825B588130062301A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = TDAApp;
+				TargetAttributes = {
+					22B72FFF25B588130062301A = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 22B72FFB25B588130062301A /* Build configuration list for PBXProject "PaymanYar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B72FF725B588130062301A;
+			productRefGroup = 22B7300125B588130062301A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B72FFF25B588130062301A /* PaymanYar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B72FFE25B588130062301A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B7301025B588140062301A /* LaunchScreen.storyboard in Resources */,
+				22B7300D25B588140062301A /* Assets.xcassets in Resources */,
+				22FCCD0E25B9538C0055BCF2 /* Slider.xib in Resources */,
+				22B7300B25B588130062301A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		337BF8350A98EF5D0F89CB97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaymanYar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC87270978FE107E2EC3078F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymanYar/Pods-PaymanYar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PaymanYar/Pods-PaymanYar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaymanYar/Pods-PaymanYar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B72FFC25B588130062301A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B7300825B588130062301A /* ViewController.swift in Sources */,
+				22FCCD0C25B953570055BCF2 /* Slider.swift in Sources */,
+				22B7300425B588130062301A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22B7300925B588130062301A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B7300A25B588130062301A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22B7300E25B588140062301A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B7300F25B588140062301A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B7301225B588140062301A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22B7301325B588140062301A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B7301525B588140062301A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A410CA98A5D7B509E12AD16E /* Pods-PaymanYar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJQ4H499R5;
+				INFOPLIST_FILE = PaymanYar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paymanyar.tdaapp.PaymanYar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22B7301625B588140062301A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF25C4FE25F3DEA9257A915 /* Pods-PaymanYar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJQ4H499R5;
+				INFOPLIST_FILE = PaymanYar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paymanyar.tdaapp.PaymanYar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B72FFB25B588130062301A /* Build configuration list for PBXProject "PaymanYar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B7301225B588140062301A /* Debug */,
+				22B7301325B588140062301A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B7301425B588140062301A /* Build configuration list for PBXNativeTarget "PaymanYar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B7301525B588140062301A /* Debug */,
+				22B7301625B588140062301A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B72FF825B588130062301A /* Project object */;
+}

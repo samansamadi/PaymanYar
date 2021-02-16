@@ -1,0 +1,6 @@
+framework module Pods_PaymanYar {
+  umbrella header "Pods-PaymanYar-umbrella.h"
+
+  export *
+  module * { export * }
+}
